@@ -1,0 +1,26 @@
+# 🔬 DETECTOR DE CÂNCER DE PELE - DEPENDÊNCIAS
+# Versões testadas e compatíveis
+
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Processamento de Imagens
+Pillow>=9.0.0
+numpy>=1.21.0
+
+# Interface Gráfica (incluído no Python)
+# tkinter - não precisa instalar
+
+# Otimizações GPU (opcional)
+# nvidia-ml-py3>=7.352.0
+
+# Para desenvolvimento (opcional)
+# matplotlib>=3.5.0
+# tqdm>=4.64.0
+# pandas>=1.3.0
+
+# Notas de instalação:
+# 1. Para GPU NVIDIA: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# 2. Para CPU apenas: pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# 3. Versões específicas podem variar dependendo da versão do Python
